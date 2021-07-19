@@ -410,7 +410,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "Javaid_Khan19", //Replace "twitter" with your twitter username without @
+  userName: "twitter", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

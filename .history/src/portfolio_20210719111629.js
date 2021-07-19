@@ -338,9 +338,8 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
-
 
 // Blogs Section
 
@@ -351,18 +350,16 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://zerotomastery.io/blog/react-native-vs-flutter-mo-binni-ama/",
-      title: "React Native vs Flutter",
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Mo answers questions about react native vs flutter, getting started with react native, getting a job as a junior mobile developer with no previous experience and much more. Mo is a Full Stack Engineer and Solutions Architect with over 7 years of experience in Software Architecture and Development. Having worked at a development agency for the majority of his career."
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url:
-        "https://zerotomastery.io/blog/7-ways-to-earn-a-side-income-as-a-developer",
-      title: "7 Ways to Earn a Side Income as a Developer",
+      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "Why REACT is The Best?",
       description:
-        "There are a ton of side income opportunities in the world today.Especially as web developers, we have plenty of opportunities to grow an extra income on the side with our unique skillset.Sure, you may be on the learning journey to work at a top tech company, and that's definitely an awesome path, but not the only path. You will be missing out on a chance for a diverse, recurring income stream if you don't at least stop to consider how else you can apply your hot skillset."
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -384,7 +381,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -397,20 +394,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-6006897179",
-  email_address: "relaxjavaid@gmail.com"
+  number: "+92-3243454077",
+  email_address: "saadpasta70@gmail.com"
 };
+
 // Twitter Section
 
 const twitterDetails = {
-  userName: "Javaid_Khan19", //Replace "twitter" with your twitter username without @
+  userName: "twitter", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

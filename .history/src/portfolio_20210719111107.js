@@ -115,9 +115,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Lovely Professional University",
-      logo: require("./assets/images/lpuLogo.png"),
-      subHeader: "Bachelor's Degree Computer Science"
+      schoolName: "Harvard University",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "September 2017 - April 2019",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "Stanford University",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2013 - April 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -146,7 +160,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -186,102 +200,36 @@ const openSource = {
 
 // Some big projects you have worked on
 
-// Some big projects you have worked on
-
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "These are the big projects which i have done so far",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/wolzon.png"),
-      projectName: "Wolzon",
-      projectDesc:
-        "A fully functional ecommerce web application, where you can signin/sginout and sign in with google, add/remove the item to the cart. Adding Stripe Payment Gateway, user can pay online for his orders.",
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://fashion-app-b294a.web.app/"
+          url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/netlfix.png"),
-      projectName: "Netflix Clone",
-      projectDesc:
-        "A netflix clone bases react app where you can see the tv series, you need to register and choose a plan to watch your favorite, movies, tv series. It is fully functional web app as well as pwa where user can register, signIn, sigOut, make purchase with secure payment gate as stripe, update their profile.",
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://netflix-clone-940dd.web.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/amazon.png"),
-      projectName: "Amazon Clone",
-      projectDesc:
-        "A full-stack React Amazon Clone web application fully functional built with nextjs, tailwind, redux, firebase & stripe with sign in & sign out feature and you can also Add item to basket, remove item from basket.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://amazon-3-theta.vercel.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/slack.png"),
-      projectName: "Slack Clone",
-      projectDesc:
-        "Slack clone a webapp where chat rooms organized by topic, private groups, and direct messaging. You can login with your google account.I used React, Redux, Styled Components as a front-end to build this application and Firebase web hosting to host the website. Firebase cloud has also been implemented for storing users data.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://slack-clone-df68e.web.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/covid19_tracker.png"),
-      projectName: "Covid19 Tracker",
-      projectDesc:
-        "Covid-19 live tracker web app which shows you number of recent active cases, death cases. You can pull up the data by country wise, which is shown on map as well. This web app is userfriendly, responsive, fast.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://covid-19-tracker-32edd.web.app/"
-        }
-      ]
-    },
-
-    {
-      image: require("./assets/images/linkedIn.png"),
-      projectName: "LinkedIn Clone",
-      projectDesc:
-        "LinkedIn Clone a react web app where user signin with their email & image url / signout & post, where users email, password and post information is store in firebase database.This is one of my favorite projects which i have built so far, was difficult too, looks clean and butterry smooth. I will add more functionality and take it to the next level.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://linkedin-clone-96149.web.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/gmail.png"),
-      projectName: "Gmail Clone",
-      projectDesc:
-        "Gmail Clone, a react web app where you can compose an email, with functionality of to, recipient, subject and message, with the help firebase as a backend to store and fetch emails, user can view their emails in inbox. Working on spam, sent drafts to make it fully fledged app.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://clone-3c61f.web.app/"
+          url: "http://nextu.se/"
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -338,9 +286,8 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
-
 
 // Blogs Section
 
@@ -351,18 +298,16 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://zerotomastery.io/blog/react-native-vs-flutter-mo-binni-ama/",
-      title: "React Native vs Flutter",
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Mo answers questions about react native vs flutter, getting started with react native, getting a job as a junior mobile developer with no previous experience and much more. Mo is a Full Stack Engineer and Solutions Architect with over 7 years of experience in Software Architecture and Development. Having worked at a development agency for the majority of his career."
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url:
-        "https://zerotomastery.io/blog/7-ways-to-earn-a-side-income-as-a-developer",
-      title: "7 Ways to Earn a Side Income as a Developer",
+      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "Why REACT is The Best?",
       description:
-        "There are a ton of side income opportunities in the world today.Especially as web developers, we have plenty of opportunities to grow an extra income on the side with our unique skillset.Sure, you may be on the learning journey to work at a top tech company, and that's definitely an awesome path, but not the only path. You will be missing out on a chance for a diverse, recurring income stream if you don't at least stop to consider how else you can apply your hot skillset."
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -384,7 +329,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -397,20 +342,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-6006897179",
-  email_address: "relaxjavaid@gmail.com"
+  number: "+92-3243454077",
+  email_address: "saadpasta70@gmail.com"
 };
+
 // Twitter Section
 
 const twitterDetails = {
-  userName: "Javaid_Khan19", //Replace "twitter" with your twitter username without @
+  userName: "twitter", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

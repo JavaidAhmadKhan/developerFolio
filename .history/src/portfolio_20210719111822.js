@@ -404,13 +404,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-6006897179",
-  email_address: "relaxjavaid@gmail.com"
+  number: "+92-3243454077",
+  email_address: "saadpasta70@gmail.com"
 };
+
 // Twitter Section
 
 const twitterDetails = {
-  userName: "Javaid_Khan19", //Replace "twitter" with your twitter username without @
+  userName: "twitter", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
