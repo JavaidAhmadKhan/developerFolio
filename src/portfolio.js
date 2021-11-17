@@ -209,7 +209,7 @@ const bigProjects = {
       image: require("./assets/images/netlfix.png"),
       projectName: "Netflix Clone",
       projectDesc:
-        "A netflix clone bases react app where you can see the tv series, you need to register and choose a plan to watch your favorite, movies, tv series. It is fully functional web app as well as pwa where user can register, signIn, sigOut, make purchase with secure payment gate as stripe, update their profile.",
+        "A netflix clone bases react app where you can see the tv series, you need to register and choose a plan to watch your favorite, movies, tv series. It is fully functional web app as well as pwa where user can register, signIn, sigOut, make purchase with secure payment gate as stripe, update their profile, working on to admin panel",
       footerLink: [
         {
           name: "Visit Website",
