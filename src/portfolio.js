@@ -213,7 +213,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://netflix-clone-940dd.web.app/"
+          url: "https://amazon-nextjs-inky.vercel.app/"
         }
       ]
     },
@@ -230,14 +230,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/slack.png"),
-      projectName: "Slack Clone",
+      image: require("./assets/images/airbnb.png"),
+      projectName: "Airbnb Clone",
       projectDesc:
-        "Slack clone a webapp where chat rooms organized by topic, private groups, and direct messaging. You can login with your google account.I used React, Redux, Styled Components as a front-end to build this application and Firebase web hosting to host the website. Firebase cloud has also been implemented for storing users data.",
+        "Airbnb Clone Complete UI of Airbnb Clone for demo and learning purpose only  built with Nextjs, Tailwind css, Mapbox Studio for maps geolib for location date picker libray for shwoing dates and calender. Deployed on Vercel nextjs hosting platform free ,easy to use.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://slack-clone-df68e.web.app/"
+          url: "https://next-airbnb-three.vercel.app/"
         }
       ]
     },
@@ -281,7 +281,6 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -341,7 +340,6 @@ const achievementSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
-
 // Blogs Section
 
 const blogSection = {
@@ -351,15 +349,13 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://zerotomastery.io/blog/react-native-vs-flutter-mo-binni-ama/",
+      url: "https://zerotomastery.io/blog/react-native-vs-flutter-mo-binni-ama/",
       title: "React Native vs Flutter",
       description:
         "Mo answers questions about react native vs flutter, getting started with react native, getting a job as a junior mobile developer with no previous experience and much more. Mo is a Full Stack Engineer and Solutions Architect with over 7 years of experience in Software Architecture and Development. Having worked at a development agency for the majority of his career."
     },
     {
-      url:
-        "https://zerotomastery.io/blog/7-ways-to-earn-a-side-income-as-a-developer",
+      url: "https://zerotomastery.io/blog/7-ways-to-earn-a-side-income-as-a-developer",
       title: "7 Ways to Earn a Side Income as a Developer",
       description:
         "There are a ton of side income opportunities in the world today.Especially as web developers, we have plenty of opportunities to grow an extra income on the side with our unique skillset.Sure, you may be on the learning journey to work at a top tech company, and that's definitely an awesome path, but not the only path. You will be missing out on a chance for a diverse, recurring income stream if you don't at least stop to consider how else you can apply your hot skillset."
