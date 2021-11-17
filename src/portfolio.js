@@ -209,11 +209,11 @@ const bigProjects = {
       image: require("./assets/images/netlfix.png"),
       projectName: "Netflix Clone",
       projectDesc:
-        "A netflix clone bases react app where you can see the tv series, you need to register and choose a plan to watch your favorite, movies, tv series. It is fully functional web app as well as pwa where user can register, signIn, sigOut, make purchase with secure payment gate as stripe, update their profile, working on to admin panel",
+        "A netflix clone bases react app where you can see the tv series, you need to register and choose a plan to watch your favorite, movies, tv series. It is fully functional web app as well as pwa where user can register, signIn, sigOut, make purchase with secure payment gate as stripe, update their profile.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://amazon-nextjs-inky.vercel.app/"
+          url: "https://netflix-clone-940dd.web.app/"
         }
       ]
     },
@@ -221,11 +221,11 @@ const bigProjects = {
       image: require("./assets/images/amazon.png"),
       projectName: "Amazon Clone",
       projectDesc:
-        "A full-stack React Amazon Clone web application fully functional built with nextjs, tailwind, redux, firebase & stripe with sign in & sign out feature and you can also Add item to basket, remove item from basket.",
+        "A full-stack React Amazon Clone web application fully functional built with nextjs, tailwind, redux, firebase & stripe with sign in & sign out feature and you can also Add item to basket, remove item from basket, working on admin panel.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://amazon-3-theta.vercel.app/"
+          url: "https://amazon-nextjs-inky.vercel.app/"
         }
       ]
     },
