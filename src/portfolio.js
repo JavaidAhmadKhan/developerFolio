@@ -25,10 +25,10 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/JavaidAhmadKhan",
-  linkedin: "https://www.linkedin.com/in/javaid-ahmad-khan-183a41136/",
+  linkedin: "https://www.linkedin.com/in/javaid-khan-183a41136/",
   gmail: "relaxjavaid@gmail.com",
   facebook: "https://www.facebook.com/javaid.khan19/",
-  instagram: "https://www.instagram.com/cleverjavi/",
+  instagram: "https://www.instagram.com/javaidkhaan/",
   twitter: "https://twitter.com/Javaid_Khan19",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
@@ -77,10 +77,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -96,10 +93,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -133,7 +126,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
@@ -213,7 +206,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://netflix-clone-940dd.web.app/"
+          url: "https://netflix-full-sack.vercel.app/"
         }
       ]
     },
@@ -242,39 +235,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/covid19_tracker.png"),
-      projectName: "Covid19 Tracker",
+      image: require("./assets/images/medium.png"),
+      projectName: "Medium Clone",
       projectDesc:
-        "Covid-19 live tracker web app which shows you number of recent active cases, death cases. You can pull up the data by country wise, which is shown on map as well. This web app is userfriendly, responsive, fast.",
+        "Medium Clone, A Nextjs web app where you can publish your blogs leave a comment, post. Nextjs, Tailwindcss, TypeScript and sanity for backend has been used in this build",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://covid-19-tracker-32edd.web.app/"
-        }
-      ]
-    },
-
-    {
-      image: require("./assets/images/linkedIn.png"),
-      projectName: "LinkedIn Clone",
-      projectDesc:
-        "LinkedIn Clone a react web app where user signin with their email & image url / signout & post, where users email, password and post information is store in firebase database.This is one of my favorite projects which i have built so far, was difficult too, looks clean and butterry smooth. I will add more functionality and take it to the next level.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://linkedin-clone-96149.web.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/gmail.png"),
-      projectName: "Gmail Clone",
-      projectDesc:
-        "Gmail Clone, a react web app where you can compose an email, with functionality of to, recipient, subject and message, with the help firebase as a backend to store and fetch emails, user can view their emails in inbox. Working on spam, sent drafts to make it fully fledged app.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://clone-3c61f.web.app/"
+          url: "https://medium-sanity-rouge.vercel.app/"
         }
       ]
     }
