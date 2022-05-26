@@ -187,39 +187,28 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/wolzon.png"),
-      projectName: "Wolzon",
+      projectName: "Wolzon Ecommerce  ",
       projectDesc:
         "A fully functional ecommerce web application, where you can signin/sginout and sign in with google, add/remove the item to the cart. Adding Stripe Payment Gateway, user can pay online for his orders.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://fashion-app-b294a.web.app/"
+          url: "https://wolzon.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/netlfix.png"),
-      projectName: "Netflix Clone",
+      image: require("./assets/images/wolzon-dashboard.png"),
+      projectName: "Wolzon-Dashboard",
       projectDesc:
-        "A netflix clone bases react app where you can see the tv series, you need to register and choose a plan to watch your favorite, movies, tv series. It is fully functional web app as well as pwa where user can register, signIn, sigOut, make purchase with secure payment gate as stripe, update their profile.",
+        "A multipurpose Dasboard visually display important metrics, providing modern enterprise application owners and administrators with sharable insights that can be helpful for monitoring performance, spotting trends, and identifying issues. for an ecommerce web app built with ReactJs, ContextAPI, Hooks. Material UI, Firebase, Stripe, and more.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://netflix-full-sack.vercel.app/"
+          url: "https://wolzon-dashboard.vercel.app/"
         }
-      ]
-    },
-    {
-      image: require("./assets/images/amazon.png"),
-      projectName: "Amazon Clone",
-      projectDesc:
-        "A full-stack React Amazon Clone web application fully functional built with nextjs, tailwind, redux, firebase & stripe with sign in & sign out feature and you can also Add item to basket, remove item from basket, working on admin panel.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://amazon-nextjs-inky.vercel.app/"
-        }
+        //  you can add extra buttons here.
       ]
     },
     {
@@ -231,18 +220,6 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://next-airbnb-three.vercel.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/medium.png"),
-      projectName: "Medium Clone",
-      projectDesc:
-        "Medium Clone, A Nextjs web app where you can publish your blogs leave a comment, post. Nextjs, Tailwindcss, TypeScript and sanity for backend has been used in this build",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://medium-sanity-rouge.vercel.app/"
         }
       ]
     }
