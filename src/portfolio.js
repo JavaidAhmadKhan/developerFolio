@@ -219,7 +219,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://next-airbnb-three.vercel.app/"
+          url: "https://travel-clone.vercel.app/"
         }
       ]
     }
